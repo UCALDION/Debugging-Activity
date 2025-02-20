@@ -1,0 +1,45 @@
+body /* missing opening curlybrackets (opening==}) */ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+header /* heade == header*/ {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+main section {
+    margin: 20px;
+} /* missing closing curlybrackets (closing==}) */
+
+footer {
+    position: absolute;
+    bottom: 0; /* missing semicolon */
+    right: 0;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: /* missing colon */ center;
+}
